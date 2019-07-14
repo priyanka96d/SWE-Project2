@@ -23,6 +23,9 @@ public class Start {
 			
 			FCFS fcfs = new FCFS();
 			fcfs.run(arrWorkload);
+			
+			HPF hpf = new HPF();
+			hpf.run(arrWorkload);
 		
 			SJN sjn = new SJN();
 			sjn.run(arrWorkload);
